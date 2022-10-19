@@ -4,21 +4,15 @@ import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
-  <header>
-    Movie Title Word Cloud!!
-    <nav>
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
-    </nav>
-  </header>
+  <header>Movie Title Word Cloud!!</header>
   <br />
   <RouterView />
 </template>
 
 <style scoped>
 header {
-  line-height: 1.5;
-  max-height: 100vh;
+  font-size: 60px;
+  text-align: center;
 }
 
 nav {
